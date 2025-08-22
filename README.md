@@ -1,35 +1,33 @@
-# Portfolio Website
+# project
 
-## Description
-This is a personal portfolio website showcasing my research projects, technical skills, and experiences in the field of machine learning and data science.
+## Project Overview
 
-## Features
-- Responsive design that adapts to different screen sizes.
-- Sections for research projects, education, skills, and contact information.
-- Interactive elements with hover effects.
 
-## Technologies Used
-- HTML
-- CSS
-- JavaScript
-- Font Awesome for icons
+## Folder Structure
 
-## Installation Instructions
+<!-- TREE_START -->
+
+<!-- TREE_END -->
+
+
+## 🚀 Installation
+
+### For Linux / macOS
+
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
+   git clone https://github.com/mnoukhej/.git
+
+2. Run the setup script (Windows only):
    ```bash
-   cd Muhammad_Noukhez
-   ```
-3. Open `index.html` in your web browser to view the portfolio.
+   ./setup.bat
 
-## Usage
-Feel free to explore the various sections of the portfolio to learn more about my projects and skills.
 
-## Contributing
-Contributions are welcome! Please feel free to submit a pull request or open an issue.
+## 📦 Dependencies
+<!-- - Python 3.7+
+- pandas
+- openpyxl
+- numpy -->
 
-## License
-This project is licensed under the MIT License.
+## 🔧 Configuration
+
