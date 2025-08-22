@@ -6,7 +6,17 @@
 ## Folder Structure
 
 <!-- TREE_START -->
-
+```
+├── README.md
+├── assets
+│   ├── Noukhej_Resume.pdf
+│   └── profile.jpg
+├── index.html
+├── script.js
+├── setup.bat
+├── styles.css
+└── update_tree.py
+```
 <!-- TREE_END -->
 
 
