@@ -1,20 +1,24 @@
-# project
+# 📁 Tmplt
 
-## Project Overview
+---
+
+## 📘 Project Overview
 
 
-## Folder Structure
+## 🧩 Key Features
+
+
+
+---
+
+## 🗂️ Folder Structure
+
+
 
 <!-- TREE_START -->
 ```
 ├── README.md
-├── assets
-│   ├── Noukhej_Resume.pdf
-│   └── profile.jpg
-├── index.html
-├── script.js
 ├── setup.bat
-├── styles.css
 └── update_tree.py
 ```
 <!-- TREE_END -->
@@ -26,18 +30,26 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mnoukhej/.git
+   git clone https://github.com/mnoukhej/tmplt.git
 
-2. Run the setup script (Windows only):
+2. Change Directroy
+   ```bash
+   cd tmplt
+
+3. Run the setup script (Windows only):
    ```bash
    ./setup.bat
 
 
 ## 📦 Dependencies
-<!-- - Python 3.7+
-- pandas
-- openpyxl
-- numpy -->
+
 
 ## 🔧 Configuration
 
+
+## 👤 Author
+
+**Muhammad Noukhez**  
+📧 Email: mnoukhej@gmail.com  
+🐙 GitHub: https://github.com/mnoukhej  
+💼 LinkedIn: https://www.linkedin.com/in/mnoukhej/
