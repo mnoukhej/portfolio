@@ -1,3 +1,5 @@
+/* style.css */
+
 :root {
     --primary-color: #0ea5e9;
     --secondary-color: #0284c7;
@@ -24,12 +26,14 @@ body {
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--light-background);
+    padding-top:50px;
+
 }
 
 /* Navbar */
 .navbar {
     position: fixed;
-    top: 0;
+    top: 38px;
     width: 100%;
     background-color: #4169E1; /* Dark Slate Gray */
     color: white;
@@ -417,6 +421,18 @@ h2::after {
     font-size: 1.1rem;
 }
 
+
+.timeline-content .company a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+}
+
+.timeline-content .company a:hover {
+    text-decoration: underline;
+}
+
+
 .timeline-content .duration {
     color: var(--light-text);
     font-size: 0.9rem;
@@ -523,6 +539,16 @@ h2::after {
     margin-bottom: 0.25rem;
     font-size: 1.1rem;
 }
+
+.education-item .institution a {
+    text-decoration: none;
+    color: inherit;   /* keeps same text color */
+}
+
+.education-item .institution a:hover {
+    text-decoration: underline;
+}
+
 
 .education-item .duration {
     color: var(--light-text);
@@ -1031,4 +1057,84 @@ footer {
     .strengths-grid {
         gap: 1.5rem;
     }
+}
+
+
+
+
+/* Floating WhatsApp Button */
+.float-whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.float-whatsapp:hover {
+    background-color: #20ba5a;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 480px) {
+    .float-whatsapp {
+        width: 50px;
+        height: 50px;
+        right: 20px;
+        bottom: 20px;
+        font-size: 25px;
+    }
+}
+
+
+
+/* Top Contact Bar */
+.top-bar {
+    background-color: #003366;
+    color: white;
+    font-size: 0.9rem;
+    padding: 0.4rem 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1100;
+}
+
+.top-bar-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+    transition: 0.3s;
+}
+
+.top-bar a:hover {
+    color: #0ea5e9;
+}
+
+.top-right a {
+    margin-left: 0.8rem;
+    font-size: 1rem;
 }
