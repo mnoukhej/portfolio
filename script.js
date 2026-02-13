@@ -116,8 +116,14 @@ window.addEventListener('scroll', () => {
     });
 });
 
+// Hamburger Toggle (Fixed)
+document.addEventListener("DOMContentLoaded", function () {
+    const hamburgerBtn = document.getElementById("hamburger");
+    const mobileMenu = document.querySelector(".nav-links");
 
-
-
-
-
+    if (hamburgerBtn && mobileMenu) {
+        hamburgerBtn.addEventListener("click", function () {
+            mobileMenu.classList.toggle("active");
+        });
+    }
+});
