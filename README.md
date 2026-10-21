@@ -20,7 +20,11 @@
 ├── README.md
 ├── assets
 │   ├── Noukhej_Resume.pdf
-│   └── profile.jpg
+│   ├── profile.jpg
+│   ├── project_cancer.jpg
+│   ├── project_cbc.jpg
+│   ├── project_genai.jpg
+│   └── project_malaria.jpg
 ├── index.html
 ├── script.js
 ├── setup.bat
