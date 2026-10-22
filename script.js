@@ -727,6 +727,7 @@ function initShowcaseSlider() {
     const sliderTrack = document.getElementById('slider-track');
     const slides = document.querySelectorAll('.showcase-slide');
     const dots = document.querySelectorAll('.slider-dot');
+    const tabs = document.querySelectorAll('.slider-tab');
     const prevBtn = document.getElementById('slider-prev');
     const nextBtn = document.getElementById('slider-next');
     const progressFill = document.getElementById('slider-progress-fill');
@@ -760,6 +761,16 @@ function initShowcaseSlider() {
             dot.classList.toggle('active', i === currentIndex);
         });
 
+        // Update active category tab
+        tabs.forEach((tab, i) => {
+            const isActive = (i === currentIndex);
+            tab.classList.toggle('active', isActive);
+            tab.setAttribute('aria-selected', isActive ? 'true' : 'false');
+            if (isActive && window.innerWidth <= 768) {
+                tab.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+            }
+        });
+
         // Update progress bar
         if (progressFill) {
             const percent = ((currentIndex + 1) / totalSlides) * 100;
@@ -786,6 +797,31 @@ function initShowcaseSlider() {
             goToSlide(index);
             resetAutoPlay();
         });
+    });
+
+    tabs.forEach((tab) => {
+        tab.addEventListener('click', () => {
+            const targetSlide = parseInt(tab.getAttribute('data-slide-target'), 10);
+            if (!isNaN(targetSlide)) {
+                goToSlide(targetSlide);
+                resetAutoPlay();
+            }
+        });
+    });
+
+    // Keyboard navigation when in viewport
+    document.addEventListener('keydown', (e) => {
+        const sliderRect = sliderTrack.getBoundingClientRect();
+        const isInViewport = sliderRect.top < window.innerHeight && sliderRect.bottom > 0;
+        if (isInViewport) {
+            if (e.key === 'ArrowRight') {
+                goToSlide(currentIndex + 1);
+                resetAutoPlay();
+            } else if (e.key === 'ArrowLeft') {
+                goToSlide(currentIndex - 1);
+                resetAutoPlay();
+            }
+        }
     });
 
     // Touch swipe support
