@@ -5,13 +5,13 @@
 # Muhammad Noukhez — Senior Python Developer & AI / ML Systems Specialist
 ### Enterprise Software Architect | Generative AI & LLMs (Azure OpenAI) | Computer Vision (YOLO) | Full-Stack Web
 
-[![Website Status](https://img.shields.io/website?url=https%3A%2F%2Fcodex404solutions.online%2F&label=CodeX404%20Solutions&logo=rocket&color=06b6d4&style=for-the-badge)](https://codex404solutions.online/)
+[![Website Status](https://img.shields.io/website?url=https%3A%2F%2Fcodex404solutions.com%2F&label=CodeX404%20Solutions&logo=rocket&color=06b6d4&style=for-the-badge)](https://codex404solutions.com/)
 [![GitHub Profile](https://img.shields.io/badge/GitHub-mnoukhej-181717?style=for-the-badge&logo=github)](https://github.com/mnoukhej)
 [![LinkedIn Connect](https://img.shields.io/badge/LinkedIn-Muhammad_Noukhez-0077b5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/mnoukhej)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![Mobile & Desktop Responsive](https://img.shields.io/badge/Responsive-100%25%20Auto--Fit-10b981?style=for-the-badge&logo=w3c)](http://localhost:5500/)
 
-[Explore Live Demo](https://codex404solutions.online/) • [View Featured Projects](#-featured-projects) • [Architecture](#-architecture--tech-stack) • [Quick Start](#-quick-start--local-development)
+[Explore Live Demo](https://codex404solutions.com/) • [View Featured Projects](#-featured-projects) • [Architecture](#-architecture--tech-stack) • [Quick Start](#-quick-start--local-development)
 
 ---
 
@@ -19,7 +19,7 @@
 
 ## 📘 Executive Overview
 
-This repository houses the official interactive personal portfolio and engineering showcase for **Muhammad Noukhez**, a Senior Software Engineer with **7+ years of deep enterprise experience** at **Tata Consultancy Services (TCS)** across the prestigious **Research & Innovation (RnI)** and **Research & Development (RnD)** teams, and Founder & Tech Lead at [**CodeX404 Solutions**](https://codex404solutions.online/).
+This repository houses the official interactive personal portfolio and engineering showcase for **Muhammad Noukhez**, a Senior Software Engineer with **7+ years of deep enterprise experience** at **Tata Consultancy Services (TCS)** across the prestigious **Research & Innovation (RnI)** and **Research & Development (RnD)** teams, and Founder & Tech Lead at [**CodeX404 Solutions**](https://codex404solutions.com/).
 
 Designed with modern web principles, rich visual depth, and responsive fluid geometry, the portfolio demonstrates proficiency across high-throughput **Python & FastAPI backends**, production **Generative AI & LLMs (Azure OpenAI, LangChain, RAG)**, deep learning **Computer Vision (YOLOv8)**, and modern **Full-Stack Web Development (React & Node.js)**.
 
@@ -175,7 +175,7 @@ setup.bat
 
 ### **CodeX404 Solutions**
 * **Role**: Founder & Lead Architect
-* **Website**: [codex404solutions.online](https://codex404solutions.online/)
+* **Website**: [codex404solutions.com](https://codex404solutions.com/)
 * **Mission**: Delivering bespoke enterprise software engineering, AI automation pipelines, and scalable digital platforms for businesses globally.
 
 ---
@@ -190,11 +190,11 @@ setup.bat
 * 📱 **Phone / WhatsApp**: [+91 77177 47620](tel:+917717747620)
 * 💼 **LinkedIn**: [linkedin.com/in/mnoukhej](https://www.linkedin.com/in/mnoukhej/)
 * 🐙 **GitHub**: [github.com/mnoukhej](https://github.com/mnoukhej)
-* 🌐 **Agency**: [codex404solutions.online](https://codex404solutions.online/)
+* 🌐 **Agency**: [codex404solutions.com](https://codex404solutions.com/)
 * 🐦 **X / Twitter**: [@mnoukhej](https://x.com/mnoukhej)
 
 ---
 
 <div align="center">
-<sub>Designed and engineered by Muhammad Noukhez. Licensed under the <a href="LICENSE">MIT License</a>.</sub>
+<sub>Designed and engineered by **Muhammad Noukhez** • Company: **CodeX404 Solutions** • Website: [codex404solutions.com](https://codex404solutions.com/). Licensed under the <a href="LICENSE">MIT License</a>.</sub>
 </div>

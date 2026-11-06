@@ -3336,6 +3336,43 @@ img {
 }
 
 /* Footer Bottom Bar */
+
+/* Developer Credit Styling in Footer */
+.footer-dev-credit {
+    margin-top: 0.45rem;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.footer-dev-credit a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+.footer-dev-credit a:hover {
+    color: var(--primary);
+}
+
+.footer-dev-credit .credit-site-link {
+    color: var(--accent-cyan);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.footer-dev-credit .credit-site-link:hover {
+    color: #ffffff;
+}
+
+.footer-dev-credit .credit-sep {
+    color: var(--text-muted);
+    opacity: 0.5;
+}
+
 .footer-bottom-bar {
     display: flex;
     justify-content: space-between;
