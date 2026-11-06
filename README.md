@@ -180,21 +180,25 @@ setup.bat
 
 ---
 
-## 👤 Author & Connect
+## 👨‍💻 Developer & Organization Credit
 
-**Muhammad Noukhez**  
-*Senior Python Developer | GenAI & ML Systems Engineer | Founder at CodeX404 Solutions*
-
-* 📍 **Location**: Kolkata, West Bengal, India *(Open to Hybrid, Remote & Relocation)*
-* 📧 **Email**: [mnoukhej@gmail.com](mailto:mnoukhej@gmail.com)
-* 📱 **Phone / WhatsApp**: [+91 77177 47620](tel:+917717747620)
-* 💼 **LinkedIn**: [linkedin.com/in/mnoukhej](https://www.linkedin.com/in/mnoukhej/)
-* 🐙 **GitHub**: [github.com/mnoukhej](https://github.com/mnoukhej)
-* 🌐 **Agency**: [codex404solutions.com](https://codex404solutions.com/)
-* 🐦 **X / Twitter**: [@mnoukhej](https://x.com/mnoukhej)
+| **Attribute** | **Details** |
+| :--- | :--- |
+| 👤 **Developer Name** | **Muhammad Noukhez** |
+| 🏢 **Company Name** | **CodeX404 Solutions** |
+| 🌐 **Official Website** | [**codex404solutions.com**](https://codex404solutions.com/) |
+| 📧 **Email** | [mnoukhej@gmail.com](mailto:mnoukhej@gmail.com) |
+| 🐙 **GitHub** | [@mnoukhej](https://github.com/mnoukhej) |
+| 💼 **LinkedIn** | [linkedin.com/in/mnoukhej](https://www.linkedin.com/in/mnoukhej/) |
 
 ---
 
 <div align="center">
-<sub>Designed and engineered by **Muhammad Noukhez** • Company: **CodeX404 Solutions** • Website: [codex404solutions.com](https://codex404solutions.com/). Licensed under the <a href="LICENSE">MIT License</a>.</sub>
+
+[![Developer: Muhammad Noukhez](https://img.shields.io/badge/Developer-Muhammad%20Noukhez-00f2fe?style=for-the-badge&logo=github&logoColor=black)](https://github.com/mnoukhej)
+[![Company: CodeX404 Solutions](https://img.shields.io/badge/Company-CodeX404%20Solutions-4facfe?style=for-the-badge&logo=rocket&logoColor=white)](https://codex404solutions.com/)
+[![Website: codex404solutions.com](https://img.shields.io/badge/Website-codex404solutions.com-667eea?style=for-the-badge&logo=googlechrome&logoColor=white)](https://codex404solutions.com/)
+
+<sub>Engineered & Maintained by **Muhammad Noukhez** • **CodeX404 Solutions** ([codex404solutions.com](https://codex404solutions.com/))</sub>
+
 </div>
